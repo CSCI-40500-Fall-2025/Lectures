@@ -110,26 +110,30 @@ New part of the course.
 
 ## ML Tasks by Phase
 
-* Before deployment:
-  * Obtain labeled data
-  * Identify and extract features
-  * Split data into training and evaluation set
-  * Learn model from training data
-  * Evaluate model on evaluation data
-  * Repeat, revising features
-* After deployment:
-  * Evaluate model on production data; monitor
-  * Select production data for retraining
-  * Update model regularly
+### Before Deployment
+
+1. Obtain labeled data.
+1. Identify and extract features.
+1. Split data into training and evaluation set.
+1. Learn model from training data.
+1. Evaluate model on evaluation data.
+1. Repeat, revising features.
+
+### After Deployment
+
+1. Evaluate model on production data; monitor
+1. Select production data for retraining
+1. Update model regularly
 
 ## Design Decisions in ML-based Systems
 
-* Data collection and preparation
-  * Training vs test sets, sizes
-* Feature engineering
-* Model selection & configuration
-  * Structure: No. layers, decision tree depth, etc., 
-  * Search algorithms
+* Data collection and preparation.
+  * Training vs test sets, sizes.
+* Feature engineering.
+* Model selection & configuration.
+  * Structure: Number of layers, decision tree depth, etc., depending on model type.
+  * Hyperparameters: Learning rate, regularization parameters, etc.
+  * Search algorithms.
 * (More ...)
 
 ## Example Data
@@ -143,15 +147,18 @@ New part of the course.
 
 ## Data Processing
 
-* Data cleaning
-  * Remove outliers
-  * Normalize data
-  * Fill in missing values
-  * Remove misleading/useless items
-* Feature Engineering
-  * Identify parameters of interest that a model can learn on
-  * Convert initial data into feature set
-  * Select relevant subset of features
+### Data Cleaning
+
+* Remove outliers.
+* Normalize data.
+* Fill in missing values.
+* Remove misleading/useless items.
+
+### Feature Engineering
+
+* Identify parameters of interest that a model can learn on.
+* Convert initial data into feature set.
+* Select relevant subset of features.
 
 > QUESTION: What features would you use for delivery prediction?
 
@@ -231,19 +238,15 @@ Build a predictor that best describes an outcome for the observed features.
 ::: columns
 
 :::: column
-
 |Text|Genre|
 |-|-|
 |When the earth stood ... |Science fiction|
 |Two households, both alike...|Romance|
 |To Sherlock Holmes she...|Adventure|
-
 ::::
 
 :::: column
-
 ![](graphics/underfitting.png)
-
 ::::
 
 :::
@@ -253,26 +256,22 @@ Build a predictor that best describes an outcome for the observed features.
 ::: columns
 
 :::: column
-
 |Text|Genre|
 |-|-|
 |When the earth stood ... |Science fiction|
 |Two households, both alike...|Romance|
 |To Sherlock Holmes she...|Adventure|
-
 ::::
 
 :::: column
-
 ![](graphics/overfitting.png)
-
 ::::
 
 :::
 
 ## Learning and Evaluating in Production
 
-* Beyond static data sets, build telemetry
-* Use sample of live data for evaluation
-* Retrain models with sampled live data regularly
-* Monitor objectives and intervene if necessary
+* Beyond static data sets, build telemetry.
+* Use sample of live data for evaluation.
+* Retrain models with sampled live data regularly.
+* Monitor objectives and intervene if necessary.
