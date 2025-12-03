@@ -228,7 +228,9 @@ Build a predictor that best describes an outcome for the observed features.
 
 ## Under Fitting Example
 
-<!-- colstart -->
+::: columns
+
+:::: column
 
 |Text|Genre|
 |-|-|
@@ -236,13 +238,21 @@ Build a predictor that best describes an outcome for the observed features.
 |Two households, both alike...|Romance|
 |To Sherlock Holmes she...|Adventure|
 
-<!-- col -->
+::::
+
+:::: column
+
 ![](graphics/underfitting.png)
-<!-- colend -->
+
+::::
+
+:::
 
 ## Overfitting Example
 
-<!-- colstart -->
+::: columns
+
+:::: column
 
 |Text|Genre|
 |-|-|
@@ -250,9 +260,15 @@ Build a predictor that best describes an outcome for the observed features.
 |Two households, both alike...|Romance|
 |To Sherlock Holmes she...|Adventure|
 
-<!-- col -->
+::::
+
+:::: column
+
 ![](graphics/overfitting.png)
-<!-- colend -->
+
+::::
+
+:::
 
 ## Learning and Evaluating in Production
 
