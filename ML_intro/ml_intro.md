@@ -2,6 +2,9 @@
 title: Introduction to Machine Learning and Machine Learning Systems
 author: Raffi Khatchadourian (based on material from Christian Kaestner and Eunsuk Kang)
 date: November 26, 2025
+semester: Fall 2025
+footer: Based on "Machine Learning in Production/AI Engineering" by Christian Kaestner and Eunsuk Kang, Carnegie Mellon University
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
 ---
 
 # Introduction to Machine Learning and Machine Learning Systems
